@@ -1,0 +1,14 @@
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.exe
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.deps.json
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.runtimeconfig.json
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.runtimeconfig.dev.json
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.dll
+D:\Csharp\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.pdb
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.csproj.AssemblyReference.cache
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.AssemblyInfoInputs.cache
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.AssemblyInfo.cs
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.csproj.CoreCompileInputs.cache
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.dll
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.pdb
+D:\Csharp\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.genruntimeconfig.cache
