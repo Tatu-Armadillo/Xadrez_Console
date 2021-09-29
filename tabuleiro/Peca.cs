@@ -19,6 +19,10 @@
         {
             qteMovimentos++;
         }
+        public void decrementarQtdMovimentos()
+        {
+            qteMovimentos--;
+        }
 
         public bool existeMovimentosPossiveis()
         {
@@ -36,7 +40,7 @@
             return false;
         }
 
-        public bool podeMoverPara(Posicao pos) {
+        public bool movimentoPossivel(Posicao pos) {
             return movimentosPossiveis()[pos.linha, pos.coluna];
         }
 

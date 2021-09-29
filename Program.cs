@@ -41,7 +41,12 @@ namespace Xadrez
                         Console.ReadLine();
                     }
                 }
-
+                
+                if (partida.terminada)
+                {
+                    Console.WriteLine("XEQUEMATE!");
+                    Console.WriteLine("Vencedor: " + partida.jogadorAtual);
+                }
                 Tela.imprimirTabuleiro(partida.tab);
             }
             catch (TabuleiroException e)

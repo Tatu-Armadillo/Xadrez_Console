@@ -7,7 +7,6 @@ namespace Xadrez
 {
     class Tela
     {
-
         public static void imprimirPartida(PartidaDeXadrez partida)
         {
             Tela.imprimirTabuleiro(partida.tab);
@@ -15,6 +14,11 @@ namespace Xadrez
             imprimirPecasCapturadas(partida);
             Console.WriteLine("Turno: " + partida.turno);
             Console.WriteLine("Aguardanando jogada : " + partida.jogadorAtual);
+            if (partida.xeque)
+            {
+                Console.WriteLine("XEQUE!");
+            }
+
         }
 
         private static void imprimirPecasCapturadas(PartidaDeXadrez partida)
