@@ -22,38 +22,35 @@ namespace Xadrez
                         Console.WriteLine();
                         Console.Write("Origem: ");
                         Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
-                        partida.validarPosicaoOrigem(origem);
+                        partida.validarPosicaoDeOrigem(origem);
 
                         bool[,] posicoesPossiveis = partida.tab.peca(origem).movimentosPossiveis();
+
                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.tab, posicoesPossiveis);
 
                         Console.WriteLine();
                         Console.Write("Destino: ");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
-                        partida.validarPosicaoDestino(origem, destino);
+                        partida.validarPosicaoDeDestino(origem, destino);
 
                         partida.realizaJogada(origem, destino);
                     }
-                    catch (TabuleiroException ex)
+                    catch (TabuleiroException e)
                     {
-                        Console.WriteLine(ex.Message);
+                        Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
                 }
-                
-                if (partida.terminada)
-                {
-                    Console.WriteLine("XEQUEMATE!");
-                    Console.WriteLine("Vencedor: " + partida.jogadorAtual);
-                }
-                Tela.imprimirTabuleiro(partida.tab);
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
             catch (TabuleiroException e)
             {
                 Console.WriteLine(e.Message);
             }
 
+            Console.ReadLine();
         }
     }
 }

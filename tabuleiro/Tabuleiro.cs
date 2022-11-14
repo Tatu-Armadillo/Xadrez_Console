@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace tabuleiro
 {
     public class Tabuleiro
@@ -64,7 +66,7 @@ namespace tabuleiro
         {
             if (!posicaoValida(pos))
             {
-                throw new TabuleiroException("Posição Invalida!");
+                throw new TabuleiroException("Posicao Invalida!");
             }
         }
     }
